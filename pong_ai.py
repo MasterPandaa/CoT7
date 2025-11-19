@@ -1,5 +1,6 @@
-import pygame
 import random
+
+import pygame
 
 # -----------------------------
 # Konstanta & Konfigurasi
@@ -141,7 +142,7 @@ def main():
     ball.reset()
 
     # Skor
-    left_score = 0   # Player
+    left_score = 0  # Player
     right_score = 0  # AI
 
     running = True
